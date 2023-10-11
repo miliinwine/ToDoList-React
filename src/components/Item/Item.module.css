@@ -1,0 +1,23 @@
+li {
+  color: #54595e;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  width: 546px;
+  height: 21px;
+  display: grid;
+  grid-template-columns: 32px auto 16px;
+  align-items: center;
+}
+.checkbox {
+  width: 16px;
+  height: 16px;
+}
+.cross {
+  width: 16px;
+  height: 16px;
+  border: none;
+  background-color: white;
+}
+input:checked ~ span {
+  text-decoration: line-through;
+}
